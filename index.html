@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Farz | Premium Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Ambient Glow Effect -->
+  <div class="bg-glow"></div>
+  <div class="bg-glow-2"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#home" class="nav-logo">Faraz<span class="text-accent">.</span></a>
+
+      <button class="menu-btn" id="menuBtn">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-item">Home</a></li>
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#skills" class="nav-item">Skills</a></li>
+        <li><a href="#resume" class="nav-item">Resume</a></li>
+        <li><a href="#projects" class="nav-item">Projects</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="section">
+    <div class="container">
+      <div class="hero-content reveal active">
+        <span class="hero-subtitle">Building Seamless experiences</span>
+        <h1 class="hero-title">I'm <span class="text-accent">Faraz</span><br>UI/UX Designer.</h1>
+        <p class="hero-desc">I design intuitive, user centered digital experiences that blend creativity with functionality.
+From wireframes to polished interfaces, I turn ideas into seamless, engaging, and impactful designs.</p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+          <a href="#contact" class="btn btn-outline">Let's Talk</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container reveal">
+      <h2>About Me</h2>
+      <div class="about-grid">
+        <div class="about-img-wrapper reveal delay-1">
+          <img src="farz.jpeg" alt="Farz" class="about-img">
+        </div>
+        <div class="about-text reveal delay-2">
+          <div class="about-text-content">
+            <p class="lead">I’m a creative <span class="highlight">UI/UX Designer</span> and <span class="highlight">Frontend Developer</span> passionate about building modern, visually engaging, and user-friendly digital experiences. With skills in <span class="highlight">Graphic Design, video Animations, and Frontend Development</span> using HTML, CSS, and JavaScript, I combine creativity with clean code to craft seamless and interactive websites.</p>
+            <p>My focus is on designing intuitive user interfaces, smooth user experiences, and responsive layouts that work beautifully across all devices. I enjoy transforming ideas into polished digital products through wireframing, prototyping, and modern design principles while bringing them to life with efficient frontend development.</p>
+            <p>From sleek portfolio websites to interactive web interfaces, I aim to create experiences that are not only aesthetically strong but also fast, functional, and impactful. I’m constantly exploring new trends in UI/UX and web technologies to improve my craft and deliver high-quality digital experiences.</p>
+          </div>
+
+          <div style="margin-top: 2.5rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="#resume" class="btn btn-primary">View Resume <i class="fas fa-arrow-down"></i></a>
+            <a href="#contact" class="btn btn-outline">Get in Touch <i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container reveal">
+      <h2>My Expertise</h2>
+
+      <div class="skills-grid">
+
+         <!-- Skill 1 -->
+        <div class="skill-card premium-card reveal delay-2">
+          <div class="card-content">
+            <div class="skill-icon text-accent">
+              <i class="fas fa-pen-nib"></i>
+            </div>
+            <h4>UI/UX Design</h4>
+            <p>Crafting intuitive and aesthetically pleasing user journeys. Translating complex requirements into elegant,
+              user-centric interfaces.</p>
+          </div>
+        </div>
+          <!-- Skill 2 -->
+        <div class="skill-card premium-card reveal delay-1">
+          <div class="card-content">
+            <div class="skill-icon text-accent">
+              <i class="fas fa-vector-square"></i>
+            </div>
+            <h4>Graphic Design</h4>
+            <p>Expertise in visual storytelling, typography, and color theory using Adobe Creative Suite (Photoshop,
+              Illustrator, InDesign, Premiere Pro, Coreldraw).</p>
+          </div>
+        </div>
+        <!-- Skill 3 -->
+        <div class="skill-card premium-card reveal delay-1">
+          <div class="card-content">
+            <div class="skill-icon text-accent">
+              <i class="fas fa-code"></i>
+            </div>
+            <h4>Frontend Developer</h4>
+            <p>Architecting responsive, accessible, and highly performant web applications using modern HTML5, CSS3,
+              JavaScript (ES6+), and modern frameworks.</p>
+          </div>
+        </div>
+
+        <!-- Skill 4 -->
+        <div class="skill-card premium-card reveal delay-3">
+          <div class="card-content">
+            <div class="skill-icon text-accent">
+              <i class="fas fa-magic"></i>
+            </div>
+            <h4>Video Animation</h4>
+            <p>Crafting high-quality video edits, cinematic transitions, motion graphics, and engaging visual effects using Adobe Premiere Pro to create impactful digital experiences and storytelling.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="section">
+    <div class="container reveal">
+      <h2>My Resume</h2>
+
+      <!-- Resume Header Badges -->
+      <div class="resume-header-stats reveal delay-1">
+        <div class="stat-pill">
+          <i class="fas fa-user-tie"></i>
+          <span><strong>Role:</strong> UI/UX Designer</span>
+        </div>
+        <div class="stat-pill">
+          <i class="fas fa-map-marker-alt"></i>
+          <span><strong>Location:</strong> Pazhayangadi | Kerala</span>
+        </div>
+        <div class="stat-pill">
+          <i class="fas fa-phone-alt"></i>
+          <span><strong>Phone:</strong> +91 9605160596</span>
+        </div>
+        <div class="stat-pill">
+          <i class="fas fa-envelope"></i>
+          <span><strong>Email:</strong> farzmuhd66@gmail.com</span>
+        </div>
+      </div>
+
+      <!-- Experience & Education Grid -->
+      <div class="resume-grid">
+        
+        <!-- Experience Column -->
+        <div class="resume-column reveal delay-1">
+          <div class="column-header">
+            <div class="column-icon">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <h3>Experience</h3>
+          </div>
+
+          <div class="timeline">
+            
+            <!-- Experience Item 1 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card premium-card">
+                <div class="card-content">
+                  <div class="timeline-card-header">
+                    <span class="timeline-badge current">Current</span>
+                    <span class="timeline-period"><i class="far fa-clock"></i> Active</span>
+                  </div>
+                  <h4 class="role-title">UX/UI Designer</h4>
+                  <h5 class="company-name">Independent Practice</h5>
+                  <div class="resume-tags">
+                    <span>UI Designing</span>
+                    <span>UX</span>
+                    <span>Wireframing</span>
+                    <span>Figma</span>
+                  </div>
+                  <ul class="timeline-points">
+                    <li>Created reusable UI components and scalable design patterns to ensure consistency across the application.</li>
+                    <li>Redesigned complex workflows and dashboard interfaces, improving usability and reducing user friction.</li>
+                    <li>Create responsive interfaces and interactive prototypes using Figma, focusing on usability and visual consistency.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Experience Item 2 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card premium-card">
+                <div class="card-content">
+                  <div class="timeline-card-header">
+                    <span class="timeline-badge">Studio</span>
+                    <span class="timeline-period"><i class="far fa-calendar-alt"></i> June 2024 - 2025</span>
+                  </div>
+                  <h4 class="role-title">Graphic Designer</h4>
+                  <h5 class="company-name">Studio — Eyetrix (Kerala)</h5>
+                  <div class="resume-tags">
+                    <span>Branding</span>
+                    <span>Photoshop</span>
+                    <span>Illustrator</span>
+                    <span>InDesign</span>
+                    <span>CorelDRAW</span>
+                  </div>
+                  <ul class="timeline-points">
+                    <li>Designed branding, social media creatives, marketing materials, and digital assets aligned with client and brand requirements.</li>
+                    <li>Developed engaging visual concepts using Adobe Photoshop, Illustrator, InDesign, and CorelDRAW.</li>
+                    <li>Collaborated with team members and clients to understand requirements and deliver polished designs within deadlines.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Education Column -->
+        <div class="resume-column reveal delay-2">
+          <div class="column-header">
+            <div class="column-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>Education</h3>
+          </div>
+
+          <div class="timeline">
+            
+            <!-- Education Item 1 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card premium-card">
+                <div class="card-content">
+                  <div class="timeline-card-header">
+                    <span class="timeline-badge">Design Specialization</span>
+                    <span class="timeline-period"><i class="far fa-calendar-alt"></i> 2025 OCT - JUN</span>
+                  </div>
+                  <h4 class="role-title">UX/UI Designing</h4>
+                  <h5 class="company-name">Kannur, Kerala</h5>
+                  <p class="timeline-desc">Specialized education covering user-centered design, user research, wireframing, high-fidelity UI design, and responsive design systems.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Education Item 2 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card premium-card">
+                <div class="card-content">
+                  <div class="timeline-card-header">
+                    <span class="timeline-badge">Diploma</span>
+                    <span class="timeline-period"><i class="far fa-calendar-alt"></i> 2022 - 2024</span>
+                  </div>
+                  <h4 class="role-title">Diploma in Digital Imaging</h4>
+                  <h5 class="company-name">Payyanur, Kerala</h5>
+                  <p class="timeline-desc">In-depth training in digital image processing, creative composition, color theory, vector illustration, and print & digital publication design.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Education Item 3 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card premium-card">
+                <div class="card-content">
+                  <div class="timeline-card-header">
+                    <span class="timeline-badge">Commerce</span>
+                    <span class="timeline-period"><i class="far fa-calendar-alt"></i> 2020 - 2022</span>
+                  </div>
+                  <h4 class="role-title">Senior Secondary Commerce</h4>
+                  <p class="timeline-desc">Foundational studies in business, commerce, and communications providing a strong analytical approach to product and digital design.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Skills & Tools Breakdown -->
+      <div class="resume-skills-matrix reveal delay-2">
+        <div class="matrix-card premium-card">
+          <div class="card-content">
+            <div class="matrix-header">
+              <i class="fas fa-layer-group text-accent"></i>
+              <h4>Design Skills</h4>
+            </div>
+            <div class="matrix-pills">
+              <span>User Experience</span>
+              <span>User Interface</span>
+              <span>Information Architecture</span>
+              <span>Wireframing</span>
+              <span>Design Thinking</span>
+              <span>Interactive Prototyping</span>
+              <span>Design Systems</span>
+              <span>User Research</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="matrix-card premium-card">
+          <div class="card-content">
+            <div class="matrix-header">
+              <i class="fas fa-tools text-accent"></i>
+              <h4>Tools & Softwares</h4>
+            </div>
+            <div class="matrix-pills">
+              <span><i class="fab fa-figma"></i> Figma</span>
+              <span>Adobe Photoshop</span>
+              <span>Adobe Illustrator</span>
+              <span>Adobe Premiere Pro</span>
+              <span>Adobe InDesign</span>
+              <span>After Effects</span>
+              <span>CorelDRAW</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="matrix-card premium-card">
+          <div class="card-content">
+            <div class="matrix-header">
+              <i class="fas fa-code text-accent"></i>
+              <h4>Language Base Knowledge</h4>
+            </div>
+            <div class="matrix-pills">
+              <span><i class="fab fa-html5"></i> HTML5</span>
+              <span><i class="fab fa-css3-alt"></i> CSS3</span>
+              <span><i class="fab fa-js"></i> JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Resume Download Banner -->
+      <div class="resume-cta-banner premium-card reveal delay-3">
+        <div class="card-content cta-banner-content">
+          <div class="cta-banner-text">
+            <h3>Let's Work Together</h3>
+            <p>Looking for a creative UI/UX Designer & Visual Strategist? Let's connect and build exceptional digital experiences.</p>
+          </div>
+          <div class="cta-banner-actions">
+            <a href="javascript:void(0)" onclick="window.print()" class="btn btn-primary"><i class="fas fa-print"></i> Print / Save Resume</a>
+            <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Get in Touch</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container reveal">
+      <h2>Featured Work</h2>
+
+      <div class="projects-grid">
+        
+
+        <!-- Project 2: E-Commerce UI -->
+        <div class="project-card premium-card reveal delay-2">
+          <div class="card-content" style="padding: 0; display: flex; flex-direction: column; height: 100%;">
+            <div class="project-img-container">
+              <img src="project2.png" alt="ShopNest E-Commerce UI Concept" class="project-img">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">ShopNest E-Commerce UI</h3>
+              <div class="project-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Vanilla JS</span>
+                <span>UI/UX</span>
+              </div>
+              <p class="project-desc">A modern, responsive e-commerce web platform designed for seamless product exploration, dynamic filter catalogs, shopping cart interactions, and frictionless checkout experience.</p>
+              <a href="https://farzmhd.github.io/e-commers/" target="_blank" rel="noopener noreferrer" class="project-link">View Live Project <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 1 -->
+        <div class="project-card premium-card reveal delay-1">
+          <div class="card-content" style="padding: 0; display: flex; flex-direction: column; height: 100%;">
+            <div class="project-img-container">
+              <img src="project1.png" alt="Project 1" class="project-img">
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Premium Case Study</h3>
+              <div class="project-tags">
+                <span>Figma</span>
+                <span>UI/UX</span>
+                <span>Prototyping</span>
+              </div>
+              <p class="project-desc">A premium OTT streaming platform concept featuring cinematic content discovery, personalized viewing experiences, and immersive UI interactions designed for modern entertainment audiences.</p>
+              <a href="https://www.behance.net/gallery/250398545/streaming-platform-portfolio?tracking_source=search_projects_published_date|ott+sreaming+platform&l=4" class="project-link">View Design<i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Graphic Design Showcase -->
+        <div class="project-card premium-card graphic-showcase-card reveal delay-3">
+          <div class="card-content" style="padding: 0; display: flex; flex-direction: column; height: 100%;">
+            <div class="project-img-container graphic-preview-box" id="graphicPreviewBox" onclick="openGraphicModal()">
+              <img src="graphic1.jpg" alt="FC Barcelona Matchday Creative" class="project-img" id="graphicMainImg">
+              <div class="img-overlay-badge">
+                <i class="fas fa-search-plus"></i> <span>Click to Expand</span>
+              </div>
+            </div>
+
+            <!-- Interactive Artwork Selector -->
+            <div class="graphic-thumbnails-strip">
+              <button type="button" class="thumb-btn active" onclick="switchGraphicImage('graphic1.jpg', 'FC Barcelona vs Real Madrid Matchday Poster', this, 0)">
+                <img src="graphic1.jpg" alt="FC Barcelona poster">
+                <span>FC Barcelona</span>
+              </button>
+              <button type="button" class="thumb-btn" onclick="switchGraphicImage('graphic2.jpg', 'Cristiano Ronaldo The GOAT Poster', this, 1)">
+                <img src="graphic2.jpg" alt="Cristiano Ronaldo poster">
+                <span>CR7 "The GOAT"</span>
+              </button>
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title" id="graphicProjectTitle">Graphic Design Concepts</h3>
+              <div class="project-tags">
+                <span>Photoshop</span>
+                <span>Illustrator</span>
+                <span>Photo Manipulation</span>
+                <span>Poster Design</span>
+                <span>Typography</span>
+              </div>
+              <p class="project-desc">High-impact sports graphics and creative poster compositions combining dynamic photo manipulation, textured typography, dramatic lighting, and visual storytelling.</p>
+              <div class="project-actions-row">
+                <button type="button" class="project-link btn-inline" onclick="openGraphicModal()">View Artworks <i class="fas fa-expand-arrows-alt"></i></button>
+                <a href="https://www.behance.net/Farazmuhd" target="_blank" rel="noopener noreferrer" class="project-link">Behance <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container reveal">
+      <h2>Get In Touch</h2>
+
+      <div class="contact-container">
+        <div class="contact-info reveal delay-1">
+          <p>I'm currently open to new opportunities. Whether you have a question, a project proposal, or just want to
+            say hi, my inbox is always open.</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>farzmuhd66@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <span>+91 9605160596</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Pazhayangadi, Kerala, India</span>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://www.behance.net/Farazmuhd" target="_blank" rel="noopener noreferrer" aria-label="Behance"><i class="fab fa-behance"></i></a>
+            <a href="https://www.linkedin.com/in/Farazmuhd" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/farzmhd" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="mailto:farzmuhd66@gmail.com" aria-label="Email"><i class="fas fa-paper-plane"></i></a>
+          </div>
+        </div>
+
+        <form class="contact-form premium-card reveal delay-2" id="contactForm">
+          <div class="card-content">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+            <p id="msg" style="margin-top: 15px; color: var(--text-main); font-weight: 500;"></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Graphic Design Lightbox Modal -->
+  <div class="graphic-modal" id="graphicModal">
+    <div class="modal-backdrop" onclick="closeGraphicModal()"></div>
+    <div class="modal-wrapper">
+      <button class="modal-close-btn" onclick="closeGraphicModal()" aria-label="Close modal">
+        <i class="fas fa-times"></i>
+      </button>
+
+      <button class="modal-nav-btn prev-btn" onclick="changeModalSlide(-1)" aria-label="Previous artwork">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+
+      <div class="modal-body">
+        <div class="modal-img-container">
+          <img src="graphic1.jpg" alt="Graphic Design Artwork" id="modalActiveImg">
+        </div>
+        <div class="modal-info">
+          <div class="modal-header-row">
+            <h3 id="modalArtworkTitle">FC Barcelona vs Real Madrid Matchday Poster</h3>
+            <span class="modal-counter" id="modalCounter">1 / 2</span>
+          </div>
+          <p id="modalArtworkDesc">Dynamic multi-figure sports composition featuring Lamine Yamal & Raphinha with stadium backdrop, lightning visual effects, and textured typography.</p>
+          <div class="modal-tags" id="modalArtworkTags">
+            <span>Photoshop</span>
+            <span>Composition</span>
+            <span>Sports Graphics</span>
+            <span>Typography</span>
+          </div>
+          <div class="modal-footer-actions">
+            <a href="https://www.behance.net/Farazmuhd" target="_blank" rel="noopener noreferrer" class="btn btn-primary"><i class="fab fa-behance"></i> View Behance</a>
+            <a href="graphic1.jpg" target="_blank" download="faraz_fc_barcelona_poster.jpg" class="btn btn-outline" id="modalDownloadBtn"><i class="fas fa-download"></i> Save Artwork</a>
+          </div>
+        </div>
+      </div>
+
+      <button class="modal-nav-btn next-btn" onclick="changeModalSlide(1)" aria-label="Next artwork">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Faraz. Designed & Built with passion.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
